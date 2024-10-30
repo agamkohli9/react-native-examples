@@ -1103,6 +1103,7 @@
 				);
 				INFOPLIST_FILE = W3MWagmi/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "RN AppKit";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1222,6 +1223,7 @@
 				);
 				INFOPLIST_FILE = W3MWagmi/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "RN AppKit";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1796,6 +1798,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				USE_HERMES = true;
 			};
 			name = Debug;
