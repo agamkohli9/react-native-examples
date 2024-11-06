@@ -71,6 +71,9 @@ createAppKit({
   clipboardClient,
   customWallets,
   enableAnalytics: true,
+  features: {
+    emailShowWallets: false,
+  },
 });
 
 const queryClient = new QueryClient();
