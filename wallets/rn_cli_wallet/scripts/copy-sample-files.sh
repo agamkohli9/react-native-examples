@@ -1,4 +1,5 @@
-//bash script that copies the mock files to the correct location
+#!/bin/bash
+#bash script that copies the mock files to the correct location
 
 cp .env.example .env.debug
 cp android/app/google-services.mock.json android/app/google-services.json
